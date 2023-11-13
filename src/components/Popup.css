@@ -1,0 +1,37 @@
+.popup {
+  position: absolute;
+  /* Set the desired width and height of the popup */
+  /*width: 300px;
+  height: 200px;*/
+  padding: 10px;
+  /* Center the popup horizontally and vertically */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  color: yellow;
+  box-shadow: 0 0 10px red;
+  outline: 2px solid red;
+}
+
+.popup .close-button {
+  background-color: lightcoral;
+  border-style: hidden;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.popup .close-button:hover {
+  background-color: rgb(255, 208, 80);
+}
+
+.popup .close-button:active {
+  background-color: red;
+  transition-duration: 0s;
+}
+
+.popup .close-button:not(:active) {
+  transition-duration: 0.6s; /* Specify a longer transition duration for deactivation after being active */
+}
