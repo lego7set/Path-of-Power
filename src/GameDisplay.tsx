@@ -5,7 +5,7 @@ function GameDisplay() {
     <div className="GameDisplay">
       Hi{" "}
       <Popup>
-        Welcome to A VIDEO GAME! <br />
+        Welcome to Path of Power! <br />
         <br /> (You can close this popup by clicking the X){" "}
       </Popup>
     </div>
